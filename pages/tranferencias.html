@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSFERIR</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="../assets/img/avatar.jpeg">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+              <a href="/pages/index.html">INICIO</a>
+              <a href="/pages/tranferencias.html">TRANSFERIR</a>
+              <a href="/pages/saldo.html">SALDO</a>
+              <a href="/pages/historico.html">HISTORICO</a>            
+          </ul>
+          </nav>
+    </header>
+    <main class="main">
+        <section>
+            <h2>TRANSFERIR</h2>
+            <form id="transferForm">
+                <label for="nombre">NOMBRE</label>
+                <input type="text">
+                <br>
+                <label for="rut">RUT</label>
+                <input type="text">
+                <br>
+                <button onclick="solicitarMonto()" class="main_transfer-button">TRANSFERIR</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Todo Los Derechos Reservados</p>
+</footer>
+    <script defer src="../assets/js/script.js"></script>
+</body>
+
+</html>
